@@ -2,5 +2,5 @@ FROM baptistearno/typebot-builder:latest
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
-EXPOSE 3000
+EXPOSE 8080
 ENTRYPOINT ["/entrypoint.sh"]
